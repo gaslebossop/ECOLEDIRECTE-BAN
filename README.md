@@ -6,7 +6,7 @@ Ce script JavaScript permet de simuler des tentatives de connexion sur le servic
 
 ## Avertissement
 
-** Utilisation illégale et éthique : Ce code est destiné à des fins éducatives uniquement. L'utilisation de ce script pour bloquer ou attaquer des comptes d'utilisateurs sans autorisation est illégale et contraire aux politiques de la plupart des services. L'auteur ne peut être tenu responsable de l'utilisation abusive de ce code.
+**Utilisation illégale et éthique : Ce code est destiné à des fins éducatives uniquement. L'utilisation de ce script pour bloquer ou attaquer des comptes d'utilisateurs sans autorisation est illégale et contraire aux politiques de la plupart des services. L'auteur ne peut être tenu responsable de l'utilisation abusive de ce code.
 
 ## Prérequis
 
@@ -25,13 +25,13 @@ Ce script JavaScript permet de simuler des tentatives de connexion sur le servic
 
 ## Utilisation
 
-** 1. Remplissez la variable identifiant dans la fonction auto-exécutante avec l'identifiant du compte que vous souhaitez bloquer.
+**1. Remplissez la variable identifiant dans la fonction auto-exécutante avec l'identifiant du compte que vous souhaitez bloquer.
 2. Exécutez le script en utilisant la commande suivante :
 ```bash
    node ban.js
 ```
 
-** Structure du Code
+**Structure du Code
 
 Le script se compose des parties suivantes :
 
@@ -49,12 +49,12 @@ Le script se compose des parties suivantes :
 
 ## Notes Techniques
 
-** - Authentification : L'API utilise un format JSON encodé pour les données de connexion.
+**- Authentification : L'API utilise un format JSON encodé pour les données de connexion.
 - User-Agent : Le script envoie un en-tête User-Agent pour simuler une requête provenant d'un navigateur standard.
 
 ## Contributions
 
-** Si vous souhaitez contribuer à ce projet, veuillez le faire de manière responsable et légale. Toute contribution qui encourage une utilisation malveillante sera ignorée.
+**Si vous souhaitez contribuer à ce projet, veuillez le faire de manière responsable et légale. Toute contribution qui encourage une utilisation malveillante sera ignorée.
 
 ## Contact
 
