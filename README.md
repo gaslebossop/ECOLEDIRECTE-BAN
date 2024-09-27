@@ -1,19 +1,19 @@
-#Ecole Directe Account Blocker by GasLeboss
+# Ecole Directe Account Blocker by GasLeboss
 
-##Description
+## Description
 
 Ce script JavaScript permet de simuler des tentatives de connexion sur le service Ecole Directe. Il envoie plusieurs requêtes de connexion à l'API d'Ecole Directe dans le but de bloquer un compte spécifique.
 
-##Avertissement
+## Avertissement
 
-**Utilisation illégale et éthique : Ce code est destiné à des fins éducatives uniquement. L'utilisation de ce script pour bloquer ou attaquer des comptes d'utilisateurs sans autorisation est illégale et contraire aux politiques de la plupart des services. L'auteur ne peut être tenu responsable de l'utilisation abusive de ce code.
+** Utilisation illégale et éthique : Ce code est destiné à des fins éducatives uniquement. L'utilisation de ce script pour bloquer ou attaquer des comptes d'utilisateurs sans autorisation est illégale et contraire aux politiques de la plupart des services. L'auteur ne peut être tenu responsable de l'utilisation abusive de ce code.
 
-##Prérequis
+## Prérequis
 
 - Node.js (version 14 ou supérieure)
 - Les modules Node.js readline, fs et node-fetch
 
-##Installation
+## Installation
 
 1. Clonez ou téléchargez le dépôt contenant ce code.
 2. Ouvrez un terminal et naviguez vers le dossier contenant le fichier.
@@ -23,15 +23,15 @@ Ce script JavaScript permet de simuler des tentatives de connexion sur le servic
    node ban.js
 ```
 
-##Utilisation
+## Utilisation
 
-**1. Remplissez la variable identifiant dans la fonction auto-exécutante avec l'identifiant du compte que vous souhaitez bloquer.
+** 1. Remplissez la variable identifiant dans la fonction auto-exécutante avec l'identifiant du compte que vous souhaitez bloquer.
 2. Exécutez le script en utilisant la commande suivante :
 ```bash
    node ban.js
 ```
 
-**Structure du Code
+** Structure du Code
 
 Le script se compose des parties suivantes :
 
@@ -47,15 +47,15 @@ Le script se compose des parties suivantes :
   - Pour chaque itération, une tentative de connexion est faite avec un mot de passe fictif.
   - Un délai de 100 millisecondes est ajouté entre chaque tentative pour éviter d'être détecté.
 
-##Notes Techniques
+## Notes Techniques
 
-**- Authentification : L'API utilise un format JSON encodé pour les données de connexion.
+** - Authentification : L'API utilise un format JSON encodé pour les données de connexion.
 - User-Agent : Le script envoie un en-tête User-Agent pour simuler une requête provenant d'un navigateur standard.
 
-##Contributions
+## Contributions
 
-**Si vous souhaitez contribuer à ce projet, veuillez le faire de manière responsable et légale. Toute contribution qui encourage une utilisation malveillante sera ignorée.
+** Si vous souhaitez contribuer à ce projet, veuillez le faire de manière responsable et légale. Toute contribution qui encourage une utilisation malveillante sera ignorée.
 
-##Contact
+## Contact
 
 Pour toute question ou remarque, vous pouvez me contacter à : gaslebossapp@gmail.com
